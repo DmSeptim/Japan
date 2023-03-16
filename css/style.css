@@ -722,6 +722,89 @@ text-decoration: none;
 
 
 
+
+
+@media screen and (max-width: 960px) {
+     .next-trip{
+          margin-bottom: 70px;
+     }
+     .benefits{
+          margin-bottom: 75px;
+     }
+     .benefits-card{
+          margin-bottom: 45px;
+     }
+
+     .search-input{
+          margin-bottom: 25px; 
+     }
+
+     .benefits-cards{
+          padding: 0 15px;
+          grid-column:  35px;
+     }
+
+     .title-sec2{
+      padding: 55px 15px;
+     }
+
+     .sek3-card-lg{
+          grid-column: span 6;
+     }
+     .sek3-card-sm{
+          grid-column: span 6;  
+     }
+
+     .sek4{
+          margin-bottom: 70px;
+     }
+
+     .sek4-1{
+          grid-column-gap: 35px;
+     } 
+     .sek4-info{
+          padding-left: 0;
+     }
+     .sek4-title{
+          margin: 0;
+          font-size: 25px;
+     }
+     .sek4-text{
+          margin-bottom: 15px;
+     }
+     .sec5-cards{
+          grid-column-gap: 25px;
+          grid-row-gap: 45px;
+     }
+     .sec5-title{
+          font-size: 30px;
+     }
+     .sec5-card-img{
+          margin: 0;
+     }
+
+     .sec5-card-text{
+          margin: 15px 0 10px 0;
+     }
+     .sec5-card{
+          grid-column: span 3;
+     }
+    .footer{
+     padding: 60px 0 60px 0;
+    }
+    .footer-logo{
+     width: 40%;
+    }
+    .footer-menu{
+     padding-left: 20px;
+    }
+    .footer-nav{
+     width: 60%;
+    }
+}
+
+
+
 @media screen  and (max-width: 767px){
      .header-burger{
           display: block;
@@ -914,89 +997,4 @@ grid-column: span 2;
           max-width: 386px;
      }
 }
-
-@media screen and (max-width: 960px) {
-     .next-trip{
-          margin-bottom: 70px;
-     }
-     .benefits{
-          margin-bottom: 75px;
-     }
-     .benefits-card{
-          margin-bottom: 45px;
-     }
-
-     .search-input{
-          margin-bottom: 25px; 
-     }
-
-     .benefits-cards{
-          padding: 0 15px;
-          grid-column:  35px;
-     }
-
-     .title-sec2{
-      padding: 55px 15px;
-     }
-
-     .sek3-card-lg{
-          grid-column: span 6;
-     }
-     .sek3-card-sm{
-          grid-column: span 6;  
-     }
-
-     .sek4{
-          margin-bottom: 70px;
-     }
-
-     .sek4-1{
-          grid-column-gap: 35px;
-     } 
-     .sek4-info{
-          padding-left: 0;
-     }
-     .sek4-title{
-          margin: 0;
-          font-size: 25px;
-     }
-     .sek4-text{
-          margin-bottom: 15px;
-     }
-     .sec5-cards{
-          grid-column-gap: 25px;
-          grid-row-gap: 45px;
-     }
-     .sec5-title{
-          font-size: 30px;
-     }
-     .sec5-card-img{
-          margin: 0;
-     }
-
-     .sec5-card-text{
-          margin: 15px 0 10px 0;
-     }
-     .sec5-card{
-          grid-column: span 3;
-     }
-    .footer{
-     padding: 60px 0 60px 0;
-    }
-    .footer-logo{
-     width: 40%;
-    }
-    .footer-menu{
-     padding-left: 20px;
-    }
-    .footer-nav{
-     width: 60%;
-    }
-}
-
-
-
-@media screen and (max-width: 767px) {
-     
-} 
      
