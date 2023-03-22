@@ -275,6 +275,8 @@ border: 0;
      left: 0;
      transform: translateY(-100%);
      background-color: #FFFFFF;
+                                   display: flex;
+                                   justify-content: center;
 }
 
 .benefits-cards{
@@ -295,6 +297,7 @@ border: 0;
      max-width: 66px;    
      margin-bottom: 37px;
      padding: 0;
+     margin-top: 28px;
 }
 
 .card-title{
@@ -547,6 +550,7 @@ left: 0;
 width: 100%;
 background:  rgba(21, 24, 36, 0.6);
 padding: 16px 25px;
+margin-bottom: 5px;
 }
 
 .sec5-card-info-title{
@@ -874,6 +878,7 @@ text-decoration: none;
 
      .benefits-card{
           grid-column: span 3;
+ 
 
      }
      .search-input{
@@ -995,6 +1000,12 @@ grid-column: span 2;
      }
      .sec5-card-info{
           max-width: 386px;
+     }
+     .Mount-Fuji{
+
+     }
+     .conteiner-full{
+         
      }
 }
      
